@@ -1,0 +1,197 @@
+{
+  "navigation": {
+    "dashboard": "ダッシュボード",
+    "calendar": "カレンダー",
+    "studyItems": "学習項目"
+  },
+  "studyItem": {
+    "add": "学習項目を追加",
+    "title": "タイトル",
+    "description": "説明",
+    "priority": "優先度",
+    "dueDate": "期限",
+    "priorities": {
+      "low": "低",
+      "medium": "中",
+      "high": "高"
+    }
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "create": "作成",
+    "loading": "読み込み中...",
+    "locale": "ja",
+    "switchLanguage": "言語を切り替える",
+    "start": "始める",
+    "learnMore": "詳しく見る",
+    "shareOnX": "Xでシェア",
+    "shareText": "効率的な学習計画ツール",
+    "allRightsReserved": "All rights reserved.",
+    "shareNow": "今すぐシェア！",
+    "shareWithFriends": "友達とシェア",
+    "thankYouForSharing": "シェアありがとうございます！",
+    "shareSuccessMessage": "StudyPlannerについて広めていただき、ありがとうございます。"
+  },
+  "home": {
+    "hero": {
+      "title": "StudyPlanner",
+      "description": "効率的な学習計画で目標達成をサポートします。"
+    },
+    "features": {
+      "title": "特徴",
+      "aiOptimization": {
+        "title": "学習管理の効率化",
+        "description": "シンプルで使いやすい学習計画ツールで、効率的な学習をサポートします。"
+      },
+      "scheduleManagement": {
+        "title": "スケジュール管理",
+        "description": "カレンダービューと通知で学習スケジュールを管理します。"
+      },
+      "progressTracking": {
+        "title": "進捗追跡",
+        "description": "詳細な分析とレポートで学習の進捗を追跡します。"
+      },
+      "goalAchievement": {
+        "title": "目標達成サポート",
+        "description": "目標を設定し、達成に向けての進捗を追跡します。"
+      }
+    },
+    "cta": {
+      "title": "今すぐ始めましょう",
+      "description": "登録不要で、すぐに学習計画を始められます。"
+    },
+    "steps": {
+      "title": "簡単3ステップで始める",
+      "setGoals": {
+        "title": "目標を設定",
+        "description": "あなたの学習目標を設定します"
+      },
+      "generateSchedule": {
+        "title": "スケジュールを作成",
+        "description": "効率的な学習計画を立てます"
+      },
+      "startLearning": {
+        "title": "学習を開始",
+        "description": "計画に沿って学習を進めます"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "StudyPlannerについて",
+      "description": "効率的な学習管理プラットフォームで、目標達成をサポートします。"
+    },
+    "features": {
+      "title": "主な特徴",
+      "aiOptimization": {
+        "title": "学習管理の効率化",
+        "description": "シンプルで使いやすい学習計画ツールで、効率的な学習をサポートします。",
+        "benefits": [
+          "学習項目の管理",
+          "スケジュール管理",
+          "進捗の可視化"
+        ]
+      },
+      "personalizedExperience": {
+        "title": "カスタマイズ可能な体験",
+        "description": "あなたの学習スタイルに合わせて利用できます。",
+        "benefits": [
+          "柔軟な学習計画",
+          "優先度の設定",
+          "期限管理"
+        ]
+      }
+    },
+    "recommended": {
+      "title": "こんな方におすすめ",
+      "students": {
+        "title": "学生の方",
+        "description": "試験対策や資格取得の学習計画に。効率的な時間管理で成績アップを支援します。"
+      },
+      "professionals": {
+        "title": "社会人の方",
+        "description": "仕事と両立しながらのスキルアップに。限られた時間を最大限活用できます。"
+      },
+      "selfImprovement": {
+        "title": "ストイックな自分が好きな方",
+        "description": "新しい趣味や技術の習得に。継続的な学習習慣の形成をサポートします。"
+      }
+    },
+    "cta": {
+      "title": "あなたの学習を始めましょう",
+      "description": "今すぐ始めてみませんか？"
+    }
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "metrics": {
+      "weeklyStudyHours": "週間学習時間",
+      "completedItems": "完了した学習項目",
+      "continuityDays": "継続日数",
+      "upcomingSessions": "今後の学習セッション"
+    },
+    "ongoingItems": {
+      "title": "進行中の学習項目",
+      "viewAll": "すべて表示",
+      "noItems": "進行中の学習項目がありません"
+    },
+    "todaySchedule": {
+      "title": "今日のスケジュール",
+      "viewCalendar": "カレンダーを表示"
+    },
+    "progress": {
+      "viewProgress": "進捗を表示"
+    }
+  },
+  "calendar": {
+    "title": "カレンダー"
+  },
+  "studyItems": {
+    "title": "学習項目",
+    "list": {
+      "title": "学習項目一覧",
+      "description": "登録されている学習項目を管理できます"
+    },
+    "add": {
+      "title": "学習項目を追加",
+      "form": {
+        "title": "タイトル",
+        "description": "説明",
+        "priority": "優先度",
+        "dueDate": "期限",
+        "submit": "学習項目を追加",
+        "cancel": "キャンセル"
+      },
+      "priorities": {
+        "low": "低",
+        "medium": "中",
+        "high": "高"
+      }
+    }
+  },
+  "progress": {
+    "title": "学習進捗",
+    "backToDashboard": "ダッシュボードに戻る",
+    "metrics": {
+      "totalStudyHours": "総学習時間",
+      "completedItems": "完了した項目",
+      "ongoingItems": "進行中の項目",
+      "notStartedItems": "未着手の項目"
+    },
+    "tabs": {
+      "overview": "概要",
+      "daily": "日別分析",
+      "items": "項目別分析"
+    },
+    "charts": {
+      "progressStatus": "進捗状況",
+      "progressStatusDesc": "学習項目の進捗状況の内訳",
+      "priorityDistribution": "優先度分布",
+      "priorityDistributionDesc": "優先度別の学習項目数",
+      "dailyStudyTime": "日別学習時間",
+      "dailyStudyTimeDesc": "過去7日間の日別学習時間",
+      "itemStudyTime": "項目別学習時間",
+      "itemStudyTimeDesc": "学習項目別の総学習時間（上位5項目）"
+    }
+  }
+} 

@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model StudyItem {
+  id          String         @id @default(cuid())
+  title       String
+  description String?
+  progress    Float          @default(0)
+  priority    Int            @default(1)
+  dueDate     DateTime?
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  userId      String?
+  User        User?          @relation(fields: [userId], references: [id])
+  sessions    StudySession[]
+}
+
+model StudySession {
+  id          String    @id @default(cuid())
+  startTime   DateTime
+  endTime     DateTime
+  completed   Boolean   @default(false)
+  notes       String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  userId      String?
+  studyItemId String
+  studyItem   StudyItem @relation(fields: [studyItemId], references: [id])
+  User        User?     @relation(fields: [userId], references: [id])
+}
+
+model User {
+  id           String         @id
+  name         String?
+  email        String         @unique
+  password     String
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime
+  StudyItem    StudyItem[]
+  StudySession StudySession[]
+}

@@ -1,0 +1,197 @@
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "calendar": "Calendar",
+    "studyItems": "Study Items"
+  },
+  "studyItem": {
+    "add": "Add Study Item",
+    "title": "Title",
+    "description": "Description",
+    "priority": "Priority",
+    "dueDate": "Due Date",
+    "priorities": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "create": "Create",
+    "loading": "Loading...",
+    "locale": "en",
+    "switchLanguage": "Switch Language",
+    "start": "Start",
+    "learnMore": "Learn More",
+    "shareOnX": "Share on X",
+    "shareText": "Efficient study planning tool",
+    "allRightsReserved": "All rights reserved.",
+    "shareNow": "Share Now!",
+    "shareWithFriends": "Share with friends",
+    "thankYouForSharing": "Thank you for sharing!",
+    "shareSuccessMessage": "Thank you for helping spread the word about StudyPlanner."
+  },
+  "home": {
+    "hero": {
+      "title": "StudyPlanner",
+      "description": "Support your goal achievement with efficient study plans."
+    },
+    "features": {
+      "title": "Features",
+      "aiOptimization": {
+        "title": "Efficient Study Management",
+        "description": "A simple and easy-to-use study planning tool to support efficient learning."
+      },
+      "scheduleManagement": {
+        "title": "Schedule Management",
+        "description": "Manage your study schedule with a calendar view and notifications."
+      },
+      "progressTracking": {
+        "title": "Progress Tracking",
+        "description": "Track your learning progress with detailed analytics and reports."
+      },
+      "goalAchievement": {
+        "title": "Goal Achievement Support",
+        "description": "Set goals and track your progress towards achieving them."
+      }
+    },
+    "cta": {
+      "title": "Start Now",
+      "description": "Start planning your studies right away, no registration required."
+    },
+    "steps": {
+      "title": "Start in 3 Easy Steps",
+      "setGoals": {
+        "title": "Set Goals",
+        "description": "Set your learning objectives"
+      },
+      "generateSchedule": {
+        "title": "Create Schedule",
+        "description": "Generate an efficient study plan"
+      },
+      "startLearning": {
+        "title": "Start Learning",
+        "description": "Follow your study plan"
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "About StudyPlanner",
+      "description": "An efficient learning management platform that helps you achieve your goals."
+    },
+    "features": {
+      "title": "Key Features",
+      "aiOptimization": {
+        "title": "Efficient Study Management",
+        "description": "A simple and easy-to-use study planning tool to support efficient learning.",
+        "benefits": [
+          "Study item management",
+          "Schedule management",
+          "Progress visualization"
+        ]
+      },
+      "personalizedExperience": {
+        "title": "Customizable Experience",
+        "description": "Use it according to your learning style.",
+        "benefits": [
+          "Flexible study planning",
+          "Priority setting",
+          "Deadline management"
+        ]
+      }
+    },
+    "recommended": {
+      "title": "Recommended For",
+      "students": {
+        "title": "Students",
+        "description": "For exam preparation and qualification studies. Supports grade improvement with efficient time management."
+      },
+      "professionals": {
+        "title": "Working Professionals",
+        "description": "For skill development while balancing work. Maximizes limited time."
+      },
+      "selfImprovement": {
+        "title": "Those Who Love Being Stoic",
+        "description": "For acquiring new hobbies or skills. Supports forming continuous learning habits."
+      }
+    },
+    "cta": {
+      "title": "Start Your Learning Journey",
+      "description": "Ready to start now?"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "metrics": {
+      "weeklyStudyHours": "Weekly Study Hours",
+      "completedItems": "Completed Items",
+      "continuityDays": "Continuity Days",
+      "upcomingSessions": "Upcoming Sessions"
+    },
+    "ongoingItems": {
+      "title": "Ongoing Study Items",
+      "viewAll": "View All",
+      "noItems": "No ongoing study items"
+    },
+    "todaySchedule": {
+      "title": "Today's Schedule",
+      "viewCalendar": "View Calendar"
+    },
+    "progress": {
+      "viewProgress": "View Progress"
+    }
+  },
+  "calendar": {
+    "title": "Calendar"
+  },
+  "studyItems": {
+    "title": "Study Items",
+    "list": {
+      "title": "Study Item List",
+      "description": "Manage your registered study items"
+    },
+    "add": {
+      "title": "Add Study Item",
+      "form": {
+        "title": "Title",
+        "description": "Description",
+        "priority": "Priority",
+        "dueDate": "Due Date",
+        "submit": "Add Study Item",
+        "cancel": "Cancel"
+      },
+      "priorities": {
+        "low": "Low",
+        "medium": "Medium",
+        "high": "High"
+      }
+    }
+  },
+  "progress": {
+    "title": "Learning Progress",
+    "backToDashboard": "Back to Dashboard",
+    "metrics": {
+      "totalStudyHours": "Total Study Hours",
+      "completedItems": "Completed Items",
+      "ongoingItems": "Ongoing Items",
+      "notStartedItems": "Not Started Items"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "daily": "Daily Analysis",
+      "items": "Items Analysis"
+    },
+    "charts": {
+      "progressStatus": "Progress Status",
+      "progressStatusDesc": "Breakdown of study item progress status",
+      "priorityDistribution": "Priority Distribution",
+      "priorityDistributionDesc": "Number of study items by priority",
+      "dailyStudyTime": "Daily Study Time",
+      "dailyStudyTimeDesc": "Daily study time for the past 7 days",
+      "itemStudyTime": "Item Study Time",
+      "itemStudyTimeDesc": "Total study time by item (top 5)"
+    }
+  }
+} 
